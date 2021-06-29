@@ -5,9 +5,8 @@ a = 0
 b = 1
 print(f'{a}, {b}, ', end = '')
 
-for i in range(1, n):
+for i in range(2, n):
     fib = a + b
     print(fib, end =', ')
     a = b
     b = fib
-print(fib)
