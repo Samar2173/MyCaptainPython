@@ -3,10 +3,11 @@ n = int(input('Enter the range fo Fibonnaci Sequence: '))
 fib = 0
 a = 0
 b = 1
-# print(f'{a}, {b}, ', end = '')
+print(f'{a}, {b}, ', end = '')
+
 for i in range(1, n):
     fib = a + b
-    # print(fib, end =', ')
+    print(fib, end =', ')
     a = b
     b = fib
 print(fib)
